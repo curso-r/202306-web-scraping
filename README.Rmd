@@ -1,8 +1,8 @@
 ---
 output: github_document
 params:
-  turma: 202102-intro-programacao
-  nome_curso: ATUALIZANDO....
+  turma: 202306-web-scraping
+  nome_curso: Web scraping
   download_material: 'TRUE'
 ---
 
