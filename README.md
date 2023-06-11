@@ -29,18 +29,18 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide                                                                                                                               |
-|:------------------------------------------------------------------------------------------------------------------------------------|
-| [01-introducao-ao-curso.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/01-introducao-ao-curso.html) |
-| [02-introducao-ao-ws.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/02-introducao-ao-ws.html)       |
-| [03-html.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/03-html.html)                               |
-| [04-dinamico.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/04-dinamico.html)                       |
+| Slide                                                                                                                     |
+|:--------------------------------------------------------------------------------------------------------------------------|
+| [01-introducao-ao-curso.html](https://curso-r.github.io/202306-web-scraping/materiais/slides/01-introducao-ao-curso.html) |
+| [02-introducao-ao-ws.html](https://curso-r.github.io/202306-web-scraping/materiais/slides/02-introducao-ao-ws.html)       |
+| [03-html.html](https://curso-r.github.io/202306-web-scraping/materiais/slides/03-html.html)                               |
+| [04-dinamico.html](https://curso-r.github.io/202306-web-scraping/materiais/slides/04-dinamico.html)                       |
 
 ## Scripts utilizados em aula
 
-| Exemplo                                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------|
-| [html_exemplo.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/exemplos_de_aula/html_exemplo.html) |
+| Exemplo                                                                                                         |
+|:----------------------------------------------------------------------------------------------------------------|
+| [html_exemplo.html](https://curso-r.github.io/202306-web-scraping/materiais/exemplos_de_aula/html_exemplo.html) |
 
 ## Práticas
 
@@ -49,8 +49,21 @@ Fora do horário de aula ou monitoria:
 
 ## Lição de casa
 
-| Exercício |
-|:----------|
+| Exercício                                                                                               |
+|:--------------------------------------------------------------------------------------------------------|
+| [01-brasilapi.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/01-brasilapi.R)     |
+| [02-sabesp.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/02-sabesp.R)           |
+| [03-sptrans.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/03-sptrans.R)         |
+| [04-chatgpt.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/04-chatgpt.R)         |
+| [05-login.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/05-login.R)             |
+| [06-html.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/06-html.R)               |
+| [07-chancedegol.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/07-chancedegol.R) |
+| [08-anatel.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/08-anatel.R)           |
+| [10-jobs.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/10-jobs.R)               |
+| [11-tjsp.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/11-tjsp.R)               |
+| [12-dejt.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/12-dejt.R)               |
+| [13-pesqele.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/13-pesqele.R)         |
+| [14-pbi.R](https://curso-r.github.io/202306-web-scraping/materiais/exercicios/14-pbi.R)                 |
 
 ## Material extra
 

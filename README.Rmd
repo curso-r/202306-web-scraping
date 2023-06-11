@@ -18,7 +18,7 @@ path_to_url <- function(path) {
     tibble::tibble(file = _) |>
     dplyr::mutate(
       url = file |>
-        paste0("https://curso-r.github.io/", params$turma, "/materiais/", ... = _) |>
+        paste0("https://curso-r.github.io/", params$turma, "/", ... = _) |>
         paste0("[", fs::path_file(file), "](", ... = _, ")")
     ) |>
     dplyr::select(url)
@@ -88,7 +88,7 @@ Fora do horário de aula ou monitoria:
 ## Lição de casa
 
 ```{r}
-"exercicios/" |>
+"materiais/exercicios/" |>
   fs::dir_ls(fail = FALSE) |>
   path_to_url() |>
   dplyr::select(Exercício = url) |>
