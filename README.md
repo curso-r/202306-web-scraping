@@ -4,7 +4,7 @@
 ## Informações importantes
 
 - [Clique
-  aqui](https://github.com/curso-r/202306-web-scraping/archive/refs/heads/main.zip)
+  aqui](https://github.com/curso-r/main-web-scraping/raw/master/material_do_curso.zip)
   para baixar o material do curso.
 
 - Nosso blog: <https://curso-r.com/blog/>
@@ -29,13 +29,18 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| Slide                                                                                                                               |
+|:------------------------------------------------------------------------------------------------------------------------------------|
+| [01-introducao-ao-curso.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/01-introducao-ao-curso.html) |
+| [02-introducao-ao-ws.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/02-introducao-ao-ws.html)       |
+| [03-html.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/03-html.html)                               |
+| [04-dinamico.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/slides/04-dinamico.html)                       |
 
 ## Scripts utilizados em aula
 
-| Exemplo |
-|:--------|
+| Exemplo                                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------|
+| [html_exemplo.html](https://curso-r.github.io/202306-web-scraping/materiais/materiais/exemplos_de_aula/html_exemplo.html) |
 
 ## Práticas
 
@@ -53,7 +58,22 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais
 que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
-    #> Em breve!
+| Tema                    | Descrição                                                                                                            |
+|:------------------------|:---------------------------------------------------------------------------------------------------------------------|
+| Referências             | [Livro Zen do R](https://curso-r.github.io/zen-do-r/)                                                                |
+| Referências             | [Livro R Packages](https://r-pkgs.org/)                                                                              |
+| Boas práticas           | [Tidyverse Style Guide](https://principles.tidyverse.org/)                                                           |
+| Documentação            | [Pacote datapasta - colar textos como vetores](https://milesmcbain.github.io/datapasta/)                             |
+| Funções                 | [Capítulo sobre Funcões - Livro R for Data Science](https://r4ds.had.co.nz/functions.html)                           |
+| Funções                 | [Post sobre os … em funções - Dots](https://blog.curso-r.com/posts/2021-12-03-tutorial-dots/)                        |
+| Licenças                | [Licenças Creative Commons](https://br.creativecommons.net/licencas/)                                                |
+| Licenças                | [Choose a license - ajuda a escolher a licença](https://choosealicense.com/)                                         |
+| Pacotes                 | [Material de workshop sobre desenvolvimento de pacotes por Jenny Bryan](https://github.com/jennybc/pkg-dev-tutorial) |
+| Pacotes                 | [Siglas de autoria para o DESCRIPTION](https://r-pkgs.org/description.html#author)                                   |
+| Referências             | [Livro Ciência de Dados em R](https://livro.curso-r.com/)                                                            |
+| Referências             | [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/package-development.pdf)                              |
+| Repositórios de pacotes | [rOpenSci](https://ropensci.org/packages/all/)                                                                       |
+| Tirar dúvidas           | [Video curso sobre o pacote Reprex](https://www.youtube.com/watch?v=IxlGYVnaGXk)                                     |
 
 ## Redes sociais da Curso-R
 

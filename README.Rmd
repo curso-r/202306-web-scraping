@@ -4,6 +4,7 @@ params:
   turma: 202306-web-scraping
   nome_curso: Web scraping
   download_material: 'TRUE'
+  aula: 1
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -17,7 +18,7 @@ path_to_url <- function(path) {
     tibble::tibble(file = _) |>
     dplyr::mutate(
       url = file |>
-        paste0("https://curso-r.github.io/", params$turma, "/", ... = _) |>
+        paste0("https://curso-r.github.io/", params$turma, "/materiais/", ... = _) |>
         paste0("[", fs::path_file(file), "](", ... = _, ")")
     ) |>
     dplyr::select(url)
@@ -29,7 +30,7 @@ path_to_url <- function(path) {
 ```{r results = 'asis'}
 # Baixar o ZIP do repo da turma (o repo principal não vai ter os scripts feitos em aula)
 if (params$download_material == "TRUE") {
-  glue::glue("- [Clique aqui](https://github.com/curso-r/{params$turma}/archive/refs/heads/main.zip) para baixar o material do curso.")
+  glue::glue("- [Clique aqui](https://github.com/curso-r/main-web-scraping/raw/master/material_do_curso.zip) para baixar o material do curso.")
 }
 ```
 
@@ -37,7 +38,7 @@ if (params$download_material == "TRUE") {
 
 - Nosso fórum: [https://discourse.curso-r.com/](https://discourse.curso-r.com/)
 
-- Nossos livros: 
+- Nossos livros:
   - [Ciência de Dados em R](https://livro.curso-r.com/)
   - [Zen do R](https://curso-r.github.io/zen-do-r/)
   - [Programando em Shiny](https://programando-em-shiny.curso-r.com/)
@@ -56,7 +57,7 @@ Fora do horário de aula ou monitoria:
 ## Slides
 
 ```{r}
-"slides/" |>
+"materiais/slides/" |>
   fs::dir_ls(glob = "*.html", fail = FALSE) |>
   path_to_url() |>
   dplyr::select(Slide = url) |>
@@ -67,12 +68,13 @@ Fora do horário de aula ou monitoria:
 ## Scripts utilizados em aula
 
 ```{r}
-"exemplos_de_aula/" |>
+"materiais/exemplos_de_aula/" |>
   fs::dir_ls(fail = FALSE) |>
   path_to_url() |>
   dplyr::select(Exemplo = url) |>
   knitr::kable()
 ```
+
 ## Práticas
 
 ```{r}
@@ -100,16 +102,24 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais que
 comentamos quando tiramos dúvidas (não necessariamente são relacionadas com o
 conteúdo da aula).
 
+```{r echo=FALSE, message=FALSE}
+safe_buscar_materiais_extras <- purrr::possibly(
+  .f = function() {
+    googlesheets4::gs4_deauth()
+    "1Oif55qAuR_yYLt0D2Ri744SAlaFf9SleJfQIIUgB_hA" |>
+      googlesheets4::read_sheet("web-scraping") |>
+      dplyr::mutate(link = glue::glue("[{desc}]({url})")) |>
+      dplyr::select(-desc,-url) |>
+      dplyr::filter(aula <= params$aula) |>
+      dplyr::arrange(aula) |>
+      dplyr::select(-aula) |>
+      knitr::kable(col.names = c("Tema", "Descrição"))
+  }, "Verificar tabela de materiais extras")
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-arquivo_csv_materiais <- "extras.csv"
-if (file.exists(arquivo_csv_materiais)) {
-  arquivo_csv_materiais |>
-    readr::read_csv2(show_col_types = FALSE) |>
-    knitr::kable()
-} else {
-  cat("Em breve!")
-}
+tabela <- safe_buscar_materiais_extras()
+
+tabela
+
 ```
 
 ## Redes sociais da Curso-R
@@ -132,7 +142,7 @@ if (params$download_material == TRUE) {
     "logo: assets/logo.png", "\n",
     "title: {params$nome_curso}", "\n",
     "show_downloads: true", "\n",
-    "link_material: 'https://github.com/curso-r/{params$turma}/archive/refs/heads/main.zip'",
+    "link_material: 'https://github.com/curso-r/main-web-scraping/raw/master/material_do_curso.zip'",
     "\n"
   )
 } else {
