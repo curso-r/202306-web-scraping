@@ -44,8 +44,10 @@ Fora do horário de aula ou monitoria:
 
 ## Práticas
 
-| Exemplo |
-|:--------|
+| Exemplo                                                                                 |
+|:----------------------------------------------------------------------------------------|
+| [01-brasilapi.R](https://curso-r.github.io/202306-web-scraping/praticas/01-brasilapi.R) |
+| [02-sabesp.R](https://curso-r.github.io/202306-web-scraping/praticas/02-sabesp.R)       |
 
 ## Lição de casa
 
