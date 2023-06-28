@@ -52,6 +52,8 @@ Fora do horário de aula ou monitoria:
 | [04-chatgpt.R](https://curso-r.github.io/202306-web-scraping/praticas/04-chatgpt.R)     |
 | [05-login.R](https://curso-r.github.io/202306-web-scraping/praticas/05-login.R)         |
 | [06-html.R](https://curso-r.github.io/202306-web-scraping/praticas/06-html.R)           |
+| [07-cdg.R](https://curso-r.github.io/202306-web-scraping/praticas/07-cdg.R)             |
+| [08-anatel.R](https://curso-r.github.io/202306-web-scraping/praticas/08-anatel.R)       |
 
 ## Lição de casa
 
