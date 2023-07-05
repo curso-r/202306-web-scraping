@@ -154,3 +154,6 @@ da_anatel_tidy <- da_anatel_html_table |>
   ## pivota a base
   tidyr::pivot_wider(names_from = X1, values_from = X2) |>
   janitor::clean_names()
+
+
+
