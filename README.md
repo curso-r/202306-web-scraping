@@ -54,6 +54,10 @@ Fora do horário de aula ou monitoria:
 | [06-html.R](https://curso-r.github.io/202306-web-scraping/praticas/06-html.R)           |
 | [07-cdg.R](https://curso-r.github.io/202306-web-scraping/praticas/07-cdg.R)             |
 | [08-anatel.R](https://curso-r.github.io/202306-web-scraping/praticas/08-anatel.R)       |
+| [09-wiki.R](https://curso-r.github.io/202306-web-scraping/praticas/09-wiki.R)           |
+| [10-jobs.R](https://curso-r.github.io/202306-web-scraping/praticas/10-jobs.R)           |
+| [11-dejt.R](https://curso-r.github.io/202306-web-scraping/praticas/11-dejt.R)           |
+| [x-funcoes.R](https://curso-r.github.io/202306-web-scraping/praticas/x-funcoes.R)       |
 
 ## Lição de casa
 
