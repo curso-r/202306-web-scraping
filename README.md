@@ -57,6 +57,8 @@ Fora do horário de aula ou monitoria:
 | [09-wiki.R](https://curso-r.github.io/202306-web-scraping/praticas/09-wiki.R)           |
 | [10-jobs.R](https://curso-r.github.io/202306-web-scraping/praticas/10-jobs.R)           |
 | [11-dejt.R](https://curso-r.github.io/202306-web-scraping/praticas/11-dejt.R)           |
+| [13-pesqele.R](https://curso-r.github.io/202306-web-scraping/praticas/13-pesqele.R)     |
+| [14-tjrj-nba.R](https://curso-r.github.io/202306-web-scraping/praticas/14-tjrj-nba.R)   |
 | [x-funcoes.R](https://curso-r.github.io/202306-web-scraping/praticas/x-funcoes.R)       |
 
 ## Lição de casa
