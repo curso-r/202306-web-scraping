@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="_w_b5ba3a38/">
+    <script type="text/javascript">
+(function() {
+  var workerId = '_w_b5ba3a38';
+  // remove base href if worker ID is in url
+  if (window.location.href.indexOf(workerId) > 0) {
+    document.querySelector('base').removeAttribute('href');
+  }
+})();
+</script>
+
+      <script type="text/javascript">
+      var __connect = {
+        shinyPre101: false
+      }
+      </script>
+      
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="application/shiny-singletons">603e796bcfc2ab3685167d58c426f64c15a95192</script>
+  <script type="application/html-dependencies">json2[2014.02.04];jquery[3.5.1];shiny[1.5.0];font-awesome[5.13.0];shinyBS[0.61];htmlwidgets[1.5.1];proj4js[2.3.15];highcharts[7.2.0];highchart-binding[0.7.0.9000];datatables-css[0.0.0];datatables-binding[0.14];crosstalk[1.1.0.1];selectize[0.11.2];bootstrap[3.4.1];AdminLTE[2.0.6];shinydashboard[0.7.1]</script>
+<script src="shared/json2-min.js"></script>
+<script src="shared/jquery.min.js"></script>
+<link href="shared/shiny.css" rel="stylesheet" />
+<script src="shared/shiny.min.js"></script>
+<link href="font-awesome-5.13.0/css/all.min.css" rel="stylesheet" />
+<link href="font-awesome-5.13.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="sbs/shinyBS.css" rel="stylesheet" />
+<script src="sbs/shinyBS.js"></script>
+<script src="htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="proj4js-2.3.15/proj4.js"></script>
+<link href="highcharts-7.2.0/css/motion.css" rel="stylesheet" />
+<link href="highcharts-7.2.0/css/htmlwdgtgrid.css" rel="stylesheet" />
+<script src="highcharts-7.2.0/highcharts.js"></script>
+<script src="highcharts-7.2.0/highcharts-3d.js"></script>
+<script src="highcharts-7.2.0/highcharts-more.js"></script>
+<script src="highcharts-7.2.0/modules/stock.js"></script>
+<script src="highcharts-7.2.0/modules/map.js"></script>
+<script src="highcharts-7.2.0/modules/annotations.js"></script>
+<script src="highcharts-7.2.0/modules/boost.js"></script>
+<script src="highcharts-7.2.0/modules/data.js"></script>
+<script src="highcharts-7.2.0/modules/drag-panes.js"></script>
+<script src="highcharts-7.2.0/modules/drilldown.js"></script>
+<script src="highcharts-7.2.0/modules/item-series.js"></script>
+<script src="highcharts-7.2.0/modules/offline-exporting.js"></script>
+<script src="highcharts-7.2.0/modules/overlapping-datalabels.js"></script>
+<script src="highcharts-7.2.0/modules/exporting.js"></script>
+<script src="highcharts-7.2.0/modules/export-data.js"></script>
+<script src="highcharts-7.2.0/modules/funnel.js"></script>
+<script src="highcharts-7.2.0/modules/heatmap.js"></script>
+<script src="highcharts-7.2.0/modules/treemap.js"></script>
+<script src="highcharts-7.2.0/modules/sankey.js"></script>
+<script src="highcharts-7.2.0/modules/solid-gauge.js"></script>
+<script src="highcharts-7.2.0/modules/streamgraph.js"></script>
+<script src="highcharts-7.2.0/modules/sunburst.js"></script>
+<script src="highcharts-7.2.0/modules/vector.js"></script>
+<script src="highcharts-7.2.0/modules/wordcloud.js"></script>
+<script src="highcharts-7.2.0/modules/xrange.js"></script>
+<script src="highcharts-7.2.0/modules/tilemap.js"></script>
+<script src="highcharts-7.2.0/modules/venn.js"></script>
+<script src="highcharts-7.2.0/modules/gantt.js"></script>
+<script src="highcharts-7.2.0/modules/timeline.js"></script>
+<script src="highcharts-7.2.0/modules/parallel-coordinates.js"></script>
+<script src="highcharts-7.2.0/modules/bullet.js"></script>
+<script src="highcharts-7.2.0/plugins/grouped-categories.js"></script>
+<script src="highcharts-7.2.0/plugins/motion.js"></script>
+<script src="highcharts-7.2.0/plugins/multicolor_series.js"></script>
+<script src="highcharts-7.2.0/custom/reset.js"></script>
+<script src="highcharts-7.2.0/custom/symbols-extra.js"></script>
+<script src="highcharts-7.2.0/custom/text-symbols.js"></script>
+<script src="highchart-binding-0.7.0.9000/highchart.js"></script>
+<link href="datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="datatables-binding-0.14/datatables.js"></script>
+<link href="crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="shared/selectize/css/selectize.bootstrap3.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]-->
+<script src="shared/selectize/js/selectize.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="shared/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+<script src="shared/bootstrap/shim/html5shiv.min.js"></script>
+<script src="shared/bootstrap/shim/respond.min.js"></script>
+<link href="AdminLTE-2.0.6/AdminLTE.min.css" rel="stylesheet" />
+<link href="AdminLTE-2.0.6/_all-skins.min.css" rel="stylesheet" />
+<script src="AdminLTE-2.0.6/app.min.js"></script>
+<link href="shinydashboard-0.7.1/shinydashboard.css" rel="stylesheet" />
+<script src="shinydashboard-0.7.1/shinydashboard.min.js"></script>  <title>pesqEle</title>
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"/>
+  <style>.shinyjs-hide { display: none !important; }</style>
+  <script>Shiny.addCustomMessageHandler('shinyjs-show', function(params) { shinyjs.debugMessage('shinyjs: calling function "show" with parameters:'); shinyjs.debugMessage(params); shinyjs.show(params);});
+Shiny.addCustomMessageHandler('shinyjs-hide', function(params) { shinyjs.debugMessage('shinyjs: calling function "hide" with parameters:'); shinyjs.debugMessage(params); shinyjs.hide(params);});
+Shiny.addCustomMessageHandler('shinyjs-toggle', function(params) { shinyjs.debugMessage('shinyjs: calling function "toggle" with parameters:'); shinyjs.debugMessage(params); shinyjs.toggle(params);});
+Shiny.addCustomMessageHandler('shinyjs-enable', function(params) { shinyjs.debugMessage('shinyjs: calling function "enable" with parameters:'); shinyjs.debugMessage(params); shinyjs.enable(params);});
+Shiny.addCustomMessageHandler('shinyjs-disable', function(params) { shinyjs.debugMessage('shinyjs: calling function "disable" with parameters:'); shinyjs.debugMessage(params); shinyjs.disable(params);});
+Shiny.addCustomMessageHandler('shinyjs-toggleState', function(params) { shinyjs.debugMessage('shinyjs: calling function "toggleState" with parameters:'); shinyjs.debugMessage(params); shinyjs.toggleState(params);});
+Shiny.addCustomMessageHandler('shinyjs-addClass', function(params) { shinyjs.debugMessage('shinyjs: calling function "addClass" with parameters:'); shinyjs.debugMessage(params); shinyjs.addClass(params);});
+Shiny.addCustomMessageHandler('shinyjs-removeClass', function(params) { shinyjs.debugMessage('shinyjs: calling function "removeClass" with parameters:'); shinyjs.debugMessage(params); shinyjs.removeClass(params);});
+Shiny.addCustomMessageHandler('shinyjs-toggleClass', function(params) { shinyjs.debugMessage('shinyjs: calling function "toggleClass" with parameters:'); shinyjs.debugMessage(params); shinyjs.toggleClass(params);});
+Shiny.addCustomMessageHandler('shinyjs-html', function(params) { shinyjs.debugMessage('shinyjs: calling function "html" with parameters:'); shinyjs.debugMessage(params); shinyjs.html(params);});
+Shiny.addCustomMessageHandler('shinyjs-onevent', function(params) { shinyjs.debugMessage('shinyjs: calling function "onevent" with parameters:'); shinyjs.debugMessage(params); shinyjs.onevent(params);});
+Shiny.addCustomMessageHandler('shinyjs-alert', function(params) { shinyjs.debugMessage('shinyjs: calling function "alert" with parameters:'); shinyjs.debugMessage(params); shinyjs.alert(params);});
+Shiny.addCustomMessageHandler('shinyjs-logjs', function(params) { shinyjs.debugMessage('shinyjs: calling function "logjs" with parameters:'); shinyjs.debugMessage(params); shinyjs.logjs(params);});
+Shiny.addCustomMessageHandler('shinyjs-runjs', function(params) { shinyjs.debugMessage('shinyjs: calling function "runjs" with parameters:'); shinyjs.debugMessage(params); shinyjs.runjs(params);});
+Shiny.addCustomMessageHandler('shinyjs-reset', function(params) { shinyjs.debugMessage('shinyjs: calling function "reset" with parameters:'); shinyjs.debugMessage(params); shinyjs.reset(params);});
+Shiny.addCustomMessageHandler('shinyjs-delay', function(params) { shinyjs.debugMessage('shinyjs: calling function "delay" with parameters:'); shinyjs.debugMessage(params); shinyjs.delay(params);});
+Shiny.addCustomMessageHandler('shinyjs-click', function(params) { shinyjs.debugMessage('shinyjs: calling function "click" with parameters:'); shinyjs.debugMessage(params); shinyjs.click(params);});</script>
+  <script src="shinyjs/shinyjs-default-funcs.js"></script>
+  <script>shinyjs.debug = false;</script>
+<script src="__assets__/sockjs.min.js"></script>
+<script src="__assets__/shiny-server-client.min.js"></script>
+<script>preShinyInit({reconnect:true,reconnectTimeout:15000,disableProtocols:["htmlfile","xdr-streaming","xdr-polling","websocket"],token:true,workerId:true,subappTag:true,extendSession:true,fixupInternalLinks:true});</script>
+<link rel="stylesheet" type="text/css" href="__assets__/rstudio-connect.css"/>
+</head>
+<body class="skin-black" style="min-height: 611px;">
+<script type="text/javascript" src="/__static__/components/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+<script type="text/javascript" src="/__static__/frontend/scripts/shinyapps.frame.content.js"></script>
+<script type="text/javascript" src="/__static__/frontend/scripts/shinyapps.js"></script>
+  <div class="wrapper">
+    <header class="main-header">
+      <span class="logo">Pesquisas Eleitorais 2018</span>
+      <nav class="navbar navbar-static-top" role="navigation">
+        <span style="display:none;">
+          <i class="fa fa-bars"></i>
+        </span>
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a id="download" class="btn btn-default shiny-download-link " href="" target="_blank" download>
+                <i class="fa fa-download"></i>
+                Download
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <aside id="sidebarCollapsed" class="main-sidebar" data-collapsed="false">
+      <section id="sidebarItemExpanded" class="sidebar">
+        <p align="center">Atualizado em: 31/08/2018</p>
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#shiny-tab-visao_geral" data-toggle="tab" data-value="visao_geral">
+              <i class="fa fa-globe"></i>
+              <span>Visão geral</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-empresas" data-toggle="tab" data-value="empresas">
+              <i class="fa fa-building"></i>
+              <span>Empresas</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-estatisticos" data-toggle="tab" data-value="estatisticos">
+              <i class="fa fa-users"></i>
+              <span>Estatísticos Responsáveis</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.conre3.org.br/portal/pesquisa-eleitoral/" target="_blank">
+              <i class="fa fa-lightbulb"></i>
+              <span>Saiba mais</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-sobre" data-toggle="tab" data-value="sobre">
+              <i class="fa fa-info-circle"></i>
+              <span>Sobre</span>
+            </a>
+          </li>
+          <hr/>
+          <div id="abrangencia" class="form-group shiny-input-radiogroup shiny-input-container">
+            <label class="control-label" for="abrangencia">Incluir</label>
+            <div class="shiny-options-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="abrangencia" value="todas" checked="checked"/>
+                  <span>Todas as pesquisas</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="abrangencia" value="estaduais"/>
+                  <span>Pesquisas para Governador, Senador, Deputado Federal e Deputado Estadual</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="abrangencia" value="nacionais"/>
+                  <span>Apenas pesquisas para presidente</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div id="pesq_range" class="form-group shiny-input-radiogroup shiny-input-container">
+            <label class="control-label" for="pesq_range">Abrangência</label>
+            <div class="shiny-options-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_range" value="todas" checked="checked"/>
+                  <span>Todas as pesquisas</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_range" value="nacional"/>
+                  <span>Nacional</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_range" value="outros"/>
+                  <span>Outros (estadual, municipal)</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div id="comp_contract_same" class="form-group shiny-input-radiogroup shiny-input-container">
+            <label class="control-label" for="comp_contract_same">Contratante é a própria empresa?</label>
+            <div class="shiny-options-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="comp_contract_same" value="todas" checked="checked"/>
+                  <span>Todas as pesquisas</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="comp_contract_same" value="sim"/>
+                  <span>Sim</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="comp_contract_same" value="nao"/>
+                  <span>Não</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div id="pesq_origin" class="form-group shiny-input-radiogroup shiny-input-container">
+            <label class="control-label" for="pesq_origin">Origem dos recursos</label>
+            <div class="shiny-options-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_origin" value="todas" checked="checked"/>
+                  <span>Todas as pesquisas</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_origin" value="partido"/>
+                  <span>Fundo partidário</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_origin" value="proprio"/>
+                  <span>Recursos próprios</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pesq_origin" value="vazio"/>
+                  <span>Vazio</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div id="tabs" class="sidebarMenuSelectedTabItem" data-value="null"></div>
+        </ul>
+      </section>
+    </aside>
+    <div class="content-wrapper">
+      <section class="content">
+        <script>$(document).ready(function() {setTimeout(function() {shinyBS.addTooltip('placehodelr', 'popover', {'content': 'place-holder', 'placement': 'bottom', 'trigger': 'hover', 'title': ''})}, 500)});</script>
+        <div id="contagens-contagens">
+          <div class="row">
+            <div class="shiny-html-output col-sm-3" id="contagens-num_pesquisas"></div>
+            <script>$(document).ready(function() {setTimeout(function() {shinyBS.addTooltip('contagens-num_pesquisas', 'popover', {'content': 'Número de pesquisas registradas.', 'placement': 'bottom', 'trigger': 'hover', 'title': ''})}, 500)});</script>
+            <div class="shiny-html-output col-sm-3" id="contagens-num_estatisticos"></div>
+            <script>$(document).ready(function() {setTimeout(function() {shinyBS.addTooltip('contagens-num_estatisticos', 'popover', {'content': 'Total de estatísticos registrados como responsáveis pelas pesquisas.', 'placement': 'bottom', 'trigger': 'hover', 'title': ''})}, 500)});</script>
+            <div class="shiny-html-output col-sm-3" id="contagens-num_empresas"></div>
+            <script>$(document).ready(function() {setTimeout(function() {shinyBS.addTooltip('contagens-num_empresas', 'popover', {'content': 'Total de empresas responsáveis pelas pesquisas.', 'placement': 'bottom', 'trigger': 'hover', 'title': ''})}, 500)});</script>
+            <div class="shiny-html-output col-sm-3" id="contagens-valor_mediano"></div>
+            <script>$(document).ready(function() {setTimeout(function() {shinyBS.addTooltip('contagens-valor_mediano', 'popover', {'content': 'Valor mediano das pesquisas registradas.', 'placement': 'bottom', 'trigger': 'hover', 'title': ''})}, 500)});</script>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-visao_geral">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="box" style="height: 500px">
+                  <div class="box-header">
+                    <h3 class="box-title">Pesquisas por mês</h3>
+                  </div>
+                  <div class="box-body">
+                    <div>
+                      <div id="visao_geral-barplot-plot" style="width:100%; height:400px; " class="highchart html-widget html-widget-output"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box" style="height: 500px">
+                  <div class="box-header">
+                    <h3 class="box-title">UFs de origem das pesquisas para Governador, Senador, Deputado Federal e Deputado Estadual</h3>
+                  </div>
+                  <div class="box-body">
+                    <div>
+                      <div id="visao_geral-mapa-plot" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-estatisticos">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="nav-tabs-custom" style="height: 470px">
+                  <ul class="nav nav-tabs" data-tabsetid="3562">
+                    <li class="active">
+                      <a href="#tab-3562-1" data-toggle="tab" data-value="Geral">Geral</a>
+                    </li>
+                    <li>
+                      <a href="#tab-3562-2" data-toggle="tab" data-value="Por estatístico">Por estatístico</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" data-tabsetid="3562">
+                    <div class="tab-pane active" data-value="Geral" id="tab-3562-1">
+                      <div>
+                        <div id="estatisticos-table_stat-table_stat" style="width:100%; height:auto; " class="datatables html-widget html-widget-output"></div>
+                      </div>
+                      <hr/>
+                      <p>* Valor mediano cobrado por pesquisa.</p>
+                      <p>** Custo mediano por unidade amostral.</p>
+                    </div>
+                    <div class="tab-pane" data-value="Por estatístico" id="tab-3562-2">
+                      <div class="col-sm-12">
+                        <div class="form-group shiny-input-container" style="width: 400px;">
+                          <label class="control-label" for="estatisticos-stat_select-stat">Estatístico responsável</label>
+                          <div>
+                            <select id="estatisticos-stat_select-stat"><option value="ALAN IOSHIKAZU OFUJI" selected>ALAN IOSHIKAZU OFUJI</option>
+<option value="ALEXANDRE ARAUJO GARCIA">ALEXANDRE ARAUJO GARCIA</option>
+<option value="ALEXANDRE VASCONCELOS LIMA">ALEXANDRE VASCONCELOS LIMA</option>
+<option value="ALGUSTO SILVA ROCHA">ALGUSTO SILVA ROCHA</option>
+<option value="ALICE NASCIMENTO ASSIS">ALICE NASCIMENTO ASSIS</option>
+<option value="AMAURY MACEDO NASCIMENTO">AMAURY MACEDO NASCIMENTO</option>
+<option value="ANDERSON SILVA MACEDO">ANDERSON SILVA MACEDO</option>
+<option value="ANDREIA ADELAIDE ANGELOTI MARCON">ANDREIA ADELAIDE ANGELOTI MARCON</option>
+<option value="ANDRIGO RODRIGUES">ANDRIGO RODRIGUES</option>
+<option value="ANTONIO CARLOS RODRIGUES BARBOSA">ANTONIO CARLOS RODRIGUES BARBOSA</option>
+<option value="AQUILES FIAMENGUE NETO">AQUILES FIAMENGUE NETO</option>
+<option value="ARMONI CRUZ SANTOS">ARMONI CRUZ SANTOS</option>
+<option value="AUGUSTO SILVA ROCHA">AUGUSTO SILVA ROCHA</option>
+<option value="AUSTO SILVA ROCHA">AUSTO SILVA ROCHA</option>
+<option value="BARBARA CAMBOIM LOPES FIGUEIREDO">BARBARA CAMBOIM LOPES FIGUEIREDO</option>
+<option value="BRUNO AGRA FERREIRA">BRUNO AGRA FERREIRA</option>
+<option value="BRUNO AUGUSTO SILVA ANDRADE">BRUNO AUGUSTO SILVA ANDRADE</option>
+<option value="CAIO FELIPE BRITO ANDRADE">CAIO FELIPE BRITO ANDRADE</option>
+<option value="CARLOS ANTONIO GADELHA ARAUJO JUNIOR">CARLOS ANTONIO GADELHA ARAUJO JUNIOR</option>
+<option value="CARLOS OLIVIO ROMEIRO SILVA">CARLOS OLIVIO ROMEIRO SILVA</option>
+<option value="CELENE RAPOSO AQUINO">CELENE RAPOSO AQUINO</option>
+<option value="CELY NATALIE PINTO RODRIGUES">CELY NATALIE PINTO RODRIGUES</option>
+<option value="CLODOALDO ROLDAO TABORDA CHUBA SOBRINHO">CLODOALDO ROLDAO TABORDA CHUBA SOBRINHO</option>
+<option value="DAMIAO FLAVIO SANTOS">DAMIAO FLAVIO SANTOS</option>
+<option value="DANIELA ALVES FERREIRA SOUZA">DANIELA ALVES FERREIRA SOUZA</option>
+<option value="DARIO NERY">DARIO NERY</option>
+<option value="DEMETRIO ALCONE PERES">DEMETRIO ALCONE PERES</option>
+<option value="DENISE MAGRI MENDES">DENISE MAGRI MENDES</option>
+<option value="DENIVALDO FERNANDES">DENIVALDO FERNANDES</option>
+<option value="DHAIANY BUENO GOMES">DHAIANY BUENO GOMES</option>
+<option value="DINARTEORLANDI">DINARTEORLANDI</option>
+<option value="DIOGENES VITOR SILVEIRA">DIOGENES VITOR SILVEIRA</option>
+<option value="DIOGO MELLO BRITO SILVA">DIOGO MELLO BRITO SILVA</option>
+<option value="DRIELLY JULIANNE RODRIGUES SANTOS">DRIELLY JULIANNE RODRIGUES SANTOS</option>
+<option value="EDMILSON ANTONIO PEREIRA JUNIOR">EDMILSON ANTONIO PEREIRA JUNIOR</option>
+<option value="EDUARDO JOSE PEREIRA COSTA">EDUARDO JOSE PEREIRA COSTA</option>
+<option value="ELMO HENRIQUE MORAES">ELMO HENRIQUE MORAES</option>
+<option value="EMMANUELLE SERRANO QUEIROZ">EMMANUELLE SERRANO QUEIROZ</option>
+<option value="ERICO JANDER SILVA LOPES">ERICO JANDER SILVA LOPES</option>
+<option value="ESTATISTICO RESPONSAVEL PELA PESQUISA">ESTATISTICO RESPONSAVEL PELA PESQUISA</option>
+<option value="EULINA SILVA SANTOS">EULINA SILVA SANTOS</option>
+<option value="EZIO LACERDA LOPES">EZIO LACERDA LOPES</option>
+<option value="FABIO DANILO SILVA CABRAL">FABIO DANILO SILVA CABRAL</option>
+<option value="FELICIEN GONCALVES VASQUEZ">FELICIEN GONCALVES VASQUEZ</option>
+<option value="FELIPE ABRAHAO COELHO FANTAUZZI">FELIPE ABRAHAO COELHO FANTAUZZI</option>
+<option value="FERNANDO MADEIRA FERNANDES">FERNANDO MADEIRA FERNANDES</option>
+<option value="FRANCISCA FATIMA LUCENA">FRANCISCA FATIMA LUCENA</option>
+<option value="FRANCY ANNE BARBOSA CESAR">FRANCY ANNE BARBOSA CESAR</option>
+<option value="FRANKLIN SOUSA TORRES">FRANKLIN SOUSA TORRES</option>
+<option value="FREDERICO LARA SOUZA">FREDERICO LARA SOUZA</option>
+<option value="GABRIEL ANTONIO TORRES PINTO">GABRIEL ANTONIO TORRES PINTO</option>
+<option value="GALTTIERI FERREIRA TAVARES">GALTTIERI FERREIRA TAVARES</option>
+<option value="GUILHERME COELHO NEVES">GUILHERME COELHO NEVES</option>
+<option value="HELOISA RODRIGUES BARBOSA">HELOISA RODRIGUES BARBOSA</option>
+<option value="HERCULES CAPIBARIBE JUNIOR">HERCULES CAPIBARIBE JUNIOR</option>
+<option value="HERCULES CAPIBERIBE JUNIOR">HERCULES CAPIBERIBE JUNIOR</option>
+<option value="HERNANY RICHARDS MEIRELES BITTENCOURT">HERNANY RICHARDS MEIRELES BITTENCOURT</option>
+<option value="HILDETE ALVES COSTA">HILDETE ALVES COSTA</option>
+<option value="IVAN FERREIRA DOMINGUES">IVAN FERREIRA DOMINGUES</option>
+<option value="JAIR SILVA FEITOZA">JAIR SILVA FEITOZA</option>
+<option value="JAMES RICHARD SILVA SANTOS FERRO">JAMES RICHARD SILVA SANTOS FERRO</option>
+<option value="JEFFERSON CRISTIANO SANTOS SILVA">JEFFERSON CRISTIANO SANTOS SILVA</option>
+<option value="JEFFERSON PINTO BARBOSA JUNIOR">JEFFERSON PINTO BARBOSA JUNIOR</option>
+<option value="JIMMY ADANS">JIMMY ADANS</option>
+<option value="JOAO ALVES SOUZA FILHO">JOAO ALVES SOUZA FILHO</option>
+<option value="JOAO BATISTA MENDES TELES">JOAO BATISTA MENDES TELES</option>
+<option value="JOAO CALDAS LAGO NETO">JOAO CALDAS LAGO NETO</option>
+<option value="JOAO LUIZ MACIEIRA E GUIMARAES">JOAO LUIZ MACIEIRA E GUIMARAES</option>
+<option value="JOAO PAULO CAMPOS">JOAO PAULO CAMPOS</option>
+<option value="JOAO SOARES ARAUJO NETO">JOAO SOARES ARAUJO NETO</option>
+<option value="JOAO VICTOR RODRIGUES ARAGAO">JOAO VICTOR RODRIGUES ARAGAO</option>
+<option value="JOAQUIM ANDRE HARMES FIGUEIREDO">JOAQUIM ANDRE HARMES FIGUEIREDO</option>
+<option value="JOAQUIM EDUARDO MANCHOLA CIFUENTES">JOAQUIM EDUARDO MANCHOLA CIFUENTES</option>
+<option value="JOAQUIM JOSE HARMES FIGUEIREDO">JOAQUIM JOSE HARMES FIGUEIREDO</option>
+<option value="JOEL CARLOS RODRIGUES OTAVIANO">JOEL CARLOS RODRIGUES OTAVIANO</option>
+<option value="JOSE ELIAS PEREIRA NETO">JOSE ELIAS PEREIRA NETO</option>
+<option value="JOSE MARIO LIMA">JOSE MARIO LIMA</option>
+<option value="JOSE REIS CUNHA FILHO">JOSE REIS CUNHA FILHO</option>
+<option value="JOSIEL MELO NOVAES">JOSIEL MELO NOVAES</option>
+<option value="JOSIEL PEREIRA SANTOS">JOSIEL PEREIRA SANTOS</option>
+<option value="JULIANE SILVEIRA FREIRE SILVA">JULIANE SILVEIRA FREIRE SILVA</option>
+<option value="JULIO GNAP">JULIO GNAP</option>
+<option value="KLEISON PAIVA FREITAS">KLEISON PAIVA FREITAS</option>
+<option value="LAERCIO SOUSA ARAUJO">LAERCIO SOUSA ARAUJO</option>
+<option value="LEONARD MENDONCA ASSIS">LEONARD MENDONCA ASSIS</option>
+<option value="LUCEMBERG PEDROSA">LUCEMBERG PEDROSA</option>
+<option value="LUCIA HELENA S. PAMASSONI">LUCIA HELENA S. PAMASSONI</option>
+<option value="LUCIANA GUEDES SILVA">LUCIANA GUEDES SILVA</option>
+<option value="LUCIANO FERNANDES AVILA OLIVEIRA">LUCIANO FERNANDES AVILA OLIVEIRA</option>
+<option value="LUIZ CARLOS FEITOSA">LUIZ CARLOS FEITOSA</option>
+<option value="MAIRCON BATISTA RIBEIRO">MAIRCON BATISTA RIBEIRO</option>
+<option value="MARCEL VALIN">MARCEL VALIN</option>
+<option value="MARCELO COSTA SOUZA">MARCELO COSTA SOUZA</option>
+<option value="MARCELO TAVARES LIMA">MARCELO TAVARES LIMA</option>
+<option value="MARCIA CAVALLARI NUNES">MARCIA CAVALLARI NUNES</option>
+<option value="MARCIO BARTOLOMEU AZEVEDO COSTA">MARCIO BARTOLOMEU AZEVEDO COSTA</option>
+<option value="MARCIO RODRIGUES SANTOS">MARCIO RODRIGUES SANTOS</option>
+<option value="MARCOS FLAVIANO MATOS SOARES">MARCOS FLAVIANO MATOS SOARES</option>
+<option value="MARCOS RUBEN OLIVEIRA">MARCOS RUBEN OLIVEIRA</option>
+<option value="MARDONE CAVALCANTE FRANCA">MARDONE CAVALCANTE FRANCA</option>
+<option value="MARIA CECILIA SACRAMENTO SOUZA CARNEIRO">MARIA CECILIA SACRAMENTO SOUZA CARNEIRO</option>
+<option value="MARIA JESUS FERREIRA OLIVEIRA">MARIA JESUS FERREIRA OLIVEIRA</option>
+<option value="MARIANNE DAMASCENO MEDINA">MARIANNE DAMASCENO MEDINA</option>
+<option value="MARIO SERGIO MATHEUS SANTOS">MARIO SERGIO MATHEUS SANTOS</option>
+<option value="MATHEUS LAINI LEAO">MATHEUS LAINI LEAO</option>
+<option value="MAYARA PIANI LUNA SILVA SICCHIERI">MAYARA PIANI LUNA SILVA SICCHIERI</option>
+<option value="MIRIAM APARECIDA IGNACIO ALMEIDA">MIRIAM APARECIDA IGNACIO ALMEIDA</option>
+<option value="NEALE AHMED EL-DASH">NEALE AHMED EL-DASH</option>
+<option value="NEANDER FERREIRA ALMEIDA">NEANDER FERREIRA ALMEIDA</option>
+<option value="OSCAR FELIPE FALCAO RAPOSO">OSCAR FELIPE FALCAO RAPOSO</option>
+<option value="PAULO RUBENS OLIVEIRA JALES CARVALHO">PAULO RUBENS OLIVEIRA JALES CARVALHO</option>
+<option value="PAULO TARSO TEIXEIRA FERREIRA">PAULO TARSO TEIXEIRA FERREIRA</option>
+<option value="RAIMUNDO NONATO CASTRO">RAIMUNDO NONATO CASTRO</option>
+<option value="RALBERT ALMEIDA MENEZES">RALBERT ALMEIDA MENEZES</option>
+<option value="RAPHAEL BOTELHO">RAPHAEL BOTELHO</option>
+<option value="RENATA NUNES CESAR">RENATA NUNES CESAR</option>
+<option value="ROBERIO REBOUCAS SILVA">ROBERIO REBOUCAS SILVA</option>
+<option value="ROSANE COELHO SILVA SALES">ROSANE COELHO SILVA SALES</option>
+<option value="ROSELAINE BATISTA">ROSELAINE BATISTA</option>
+<option value="RUI CONSTA ABRANTES">RUI CONSTA ABRANTES</option>
+<option value="RUI COSTA ABRANTES">RUI COSTA ABRANTES</option>
+<option value="SANDRA OLIVEIRA CRUZ MAZZO">SANDRA OLIVEIRA CRUZ MAZZO</option>
+<option value="SERGIO PINTO MARTINS">SERGIO PINTO MARTINS</option>
+<option value="SILVANILDO BAIA SILVA">SILVANILDO BAIA SILVA</option>
+<option value="SILVIA RITA GLINSKI SEFRIN">SILVIA RITA GLINSKI SEFRIN</option>
+<option value="STALIN JABORANDY GUINANCIO">STALIN JABORANDY GUINANCIO</option>
+<option value="STENIO RODRIGUES LIMA">STENIO RODRIGUES LIMA</option>
+<option value="STEPHSON KIM">STEPHSON KIM</option>
+<option value="SUELI GRACAS SILVA OLIVEIRA">SUELI GRACAS SILVA OLIVEIRA</option>
+<option value="TATIANI CRISTINA ARA">TATIANI CRISTINA ARA</option>
+<option value="THAIS NEILAND SOARES BORGES">THAIS NEILAND SOARES BORGES</option>
+<option value="THAIS NIELAND SOARES BORGES">THAIS NIELAND SOARES BORGES</option>
+<option value="TUANNHY ROZEIRA HAVERROTH">TUANNHY ROZEIRA HAVERROTH</option>
+<option value="ULISSES MONTARROYOS">ULISSES MONTARROYOS</option>
+<option value="USIARA BRITTO">USIARA BRITTO</option>
+<option value="VALERIA SA PAIVA PEREIRA BRUNETTA">VALERIA SA PAIVA PEREIRA BRUNETTA</option>
+<option value="VERA LUCIA CANDIANI">VERA LUCIA CANDIANI</option>
+<option value="VITOR EMMANUEL BOUCAS SILVA">VITOR EMMANUEL BOUCAS SILVA</option>
+<option value="WANDER LUIZ BENESCIUTI">WANDER LUIZ BENESCIUTI</option>
+<option value="WHARLEY BORGES FERREIRA">WHARLEY BORGES FERREIRA</option></select>
+                            <script type="application/json" data-for="estatisticos-stat_select-stat" data-nonempty="">{}</script>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-9" style="background-color: #ededed">
+                        <div class="form-group shiny-input-container">
+                          <label class="control-label" for="estatisticos-stat_pesq_select-pesq">Pesquisa</label>
+                          <div>
+                            <select id="estatisticos-stat_pesq_select-pesq"><option value="MA-01428/2018" selected>MA-01428/2018</option>
+<option value="MA-05069/2018">MA-05069/2018</option>
+<option value="MA-05302/2018">MA-05302/2018</option>
+<option value="MA-06749/2018">MA-06749/2018</option>
+<option value="MA-08300/2018">MA-08300/2018</option>
+<option value="MA-08882/2018">MA-08882/2018</option></select>
+                            <script type="application/json" data-for="estatisticos-stat_pesq_select-pesq" data-nonempty="">{}</script>
+                          </div>
+                        </div>
+                        <div style="font-size = 11pt">
+                          <div id="estatisticos-pesq_summary-summary" class="shiny-html-output"></div>
+                          <br/>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div>
+                          <div class="shiny-html-output col-sm-12" id="estatisticos-stat_counts-num_pesquisas"></div>
+                          <div class="shiny-html-output col-sm-12" id="estatisticos-stat_counts-num_empresas"></div>
+                          <div class="shiny-html-output col-sm-12" id="estatisticos-stat_counts-valor_mediano"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-empresas">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="nav-tabs-custom" style="height: 470px">
+                  <ul class="nav nav-tabs" data-tabsetid="8638">
+                    <li class="active">
+                      <a href="#tab-8638-1" data-toggle="tab" data-value="Geral">Geral</a>
+                    </li>
+                    <li>
+                      <a href="#tab-8638-2" data-toggle="tab" data-value="Por empresa">Por empresa</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" data-tabsetid="8638">
+                    <div class="tab-pane active" data-value="Geral" id="tab-8638-1">
+                      <div>
+                        <div id="empresas-table_emp-table_emp" style="width:100%; height:auto; " class="datatables html-widget html-widget-output"></div>
+                      </div>
+                      <hr/>
+                      <p>* Valor mediano cobrado por pesquisa.</p>
+                      <p>** Custo mediano por unidade amostral.</p>
+                    </div>
+                    <div class="tab-pane" data-value="Por empresa" id="tab-8638-2">
+                      <div class="col-sm-12">
+                        <div class="form-group shiny-input-container" style="width: 750px;">
+                          <label class="control-label" for="empresas-emp_select-emp">Empresa</label>
+                          <div>
+                            <select id="empresas-emp_select-emp"><option value="6 SIGMA PESQUISA E CONSULTORIA ESTATISTICA LTDA - ME / G6S GRUPO 6 SIGMA" selected>6 SIGMA PESQUISA E CONSULTORIA ESTATISTICA LTDA - ME / G6S GRUPO 6 SIGMA</option>
+<option value="A B SANTOS - ME / IPESE">A B SANTOS - ME / IPESE</option>
+<option value="A F SOARES MARKETING E PESQUISAS DE MERCADO LTDA - EPP / ACTION MARKETING E PESQUISAS">A F SOARES MARKETING E PESQUISAS DE MERCADO LTDA - EPP / ACTION MARKETING E PESQUISAS</option>
+<option value="A. F. BARBOSA &amp; CIA. LTDA - ME / INSTITUTO DE PESQUISA RESULTADO IPR">A. F. BARBOSA &amp; CIA. LTDA - ME / INSTITUTO DE PESQUISA RESULTADO IPR</option>
+<option value="ACCESS - PROJETOS, DESENVOLVIMENTO DE SISTEMAS, CONSULTORIA E PESQUISAS LTDA / ACCES PROJETOS DESENVOLVIMENTO DE SISTEMAS CONSULTORIA">ACCESS - PROJETOS, DESENVOLVIMENTO DE SISTEMAS, CONSULTORIA E PESQUISAS LTDA / ACCES PROJETOS DESENVOLVIMENTO DE SISTEMAS CONSULTORIA</option>
+<option value="AGORA PESQUISA - EIRELI / AGORA PESQUISA">AGORA PESQUISA - EIRELI / AGORA PESQUISA</option>
+<option value="ALAILSON PEREIRA MODESTO / INSTITUTO ALVO">ALAILSON PEREIRA MODESTO / INSTITUTO ALVO</option>
+<option value="ALDOUS J R SANTANA - ME / INTAKE MARKETING ESTRATEGICO E PESQUISA DE MERCADO">ALDOUS J R SANTANA - ME / INTAKE MARKETING ESTRATEGICO E PESQUISA DE MERCADO</option>
+<option value="ALO SERGIPE CONSULTORIA, ASSESSORIA, PUBLICIDADE E MARKETING EIRELI - ME / ALO SERGIPE">ALO SERGIPE CONSULTORIA, ASSESSORIA, PUBLICIDADE E MARKETING EIRELI - ME / ALO SERGIPE</option>
+<option value="AMOSTRA INSTITUTO DE PESQUISA LTDA - EPP / AMOSTRA INSTITUTO DE PESQUISA">AMOSTRA INSTITUTO DE PESQUISA LTDA - EPP / AMOSTRA INSTITUTO DE PESQUISA</option>
+<option value="AMPLA OPINIAO CONSULTORIA PESQUISA E PROJETOS LTDA - ME / AMPLA PESQUISA">AMPLA OPINIAO CONSULTORIA PESQUISA E PROJETOS LTDA - ME / AMPLA PESQUISA</option>
+<option value="ANGULO PESQUISAS UMUARAMA LTDA">ANGULO PESQUISAS UMUARAMA LTDA</option>
+<option value="ARTHUR OLIVEIRA SILVA - ME / DIRECTA PESQUISA">ARTHUR OLIVEIRA SILVA - ME / DIRECTA PESQUISA</option>
+<option value="ASSOCIACAO DO COMERCIO E INDUSTRIA DE FRANCA">ASSOCIACAO DO COMERCIO E INDUSTRIA DE FRANCA</option>
+<option value="ATLAS ASSESSORIA E PLANEJAMENTO LTDA - ME / ATLAS ASSESSORIA CONTABIL &amp; PESQUISAS LTDA">ATLAS ASSESSORIA E PLANEJAMENTO LTDA - ME / ATLAS ASSESSORIA CONTABIL &amp; PESQUISAS LTDA</option>
+<option value="BOAS E BOAS CONSULTORIA E PESQUISAS EIRELI / DOXA INSTITUTO DE PESQUISAS">BOAS E BOAS CONSULTORIA E PESQUISAS EIRELI / DOXA INSTITUTO DE PESQUISAS</option>
+<option value="BRAND CONSULTORIA E GESTAO EIRELI">BRAND CONSULTORIA E GESTAO EIRELI</option>
+<option value="CASA BRASIL EDITORES LTDA. - ME / CASA BRASIL">CASA BRASIL EDITORES LTDA. - ME / CASA BRASIL</option>
+<option value="CENSUS - INSTITUTO DE PESQUISAS LTDA - ME / CENSUS">CENSUS - INSTITUTO DE PESQUISAS LTDA - ME / CENSUS</option>
+<option value="CENTRAL DE INFORMACOES COMERCIAIS EIRELI - EPP / DATAFORM">CENTRAL DE INFORMACOES COMERCIAIS EIRELI - EPP / DATAFORM</option>
+<option value="CENTRO DE TREINAMENTO HUMANO LTDA - ME / INSTITUTO GALAXY">CENTRO DE TREINAMENTO HUMANO LTDA - ME / INSTITUTO GALAXY</option>
+<option value="CERTUS PESQUISA E CONSULTORIA EIRELI - EPP / CERTUS">CERTUS PESQUISA E CONSULTORIA EIRELI - EPP / CERTUS</option>
+<option value="CIPEC - CENTRO INTEGRADO DE PESQUISA E COMUNICACAO LTDA">CIPEC - CENTRO INTEGRADO DE PESQUISA E COMUNICACAO LTDA</option>
+<option value="COMUNICARE ORGANIZACOES LTDA - ME">COMUNICARE ORGANIZACOES LTDA - ME</option>
+<option value="CONPAR - CONSULTORIA, PESQUISA E PARTICIPACOES S/S LTDA - ME / CONPAR">CONPAR - CONSULTORIA, PESQUISA E PARTICIPACOES S/S LTDA - ME / CONPAR</option>
+<option value="CONSULTORIA E PESQUISA TECNICA LTDA / CONSULT PESQUISA">CONSULTORIA E PESQUISA TECNICA LTDA / CONSULT PESQUISA</option>
+<option value="CP2 CONSULTORIA, PESQUISA E PLANEJAMENTO LTDA. - EPP">CP2 CONSULTORIA, PESQUISA E PLANEJAMENTO LTDA. - EPP</option>
+<option value="DADOS PESQUISA OPINIAO &amp; MERCADO EIRELI / DADOS">DADOS PESQUISA OPINIAO &amp; MERCADO EIRELI / DADOS</option>
+<option value="DATA CONTROL INSTITUTO DE PESQUISA LTDA - ME / DATA CONTROL INSTITUTO DE PESQUISA">DATA CONTROL INSTITUTO DE PESQUISA LTDA - ME / DATA CONTROL INSTITUTO DE PESQUISA</option>
+<option value="DATA NEWS BRASIL OPNIAO PESQUISA E CONSULTORIA LTDA / VOX OPNIAO PUBLICA">DATA NEWS BRASIL OPNIAO PESQUISA E CONSULTORIA LTDA / VOX OPNIAO PUBLICA</option>
+<option value="DATA WORLD PESQUISA E CONSULTORIA S/C. LTDA / SENSUS">DATA WORLD PESQUISA E CONSULTORIA S/C. LTDA / SENSUS</option>
+<option value="DATAFOLHA INSTITUTO DE PESQUISAS LTDA.">DATAFOLHA INSTITUTO DE PESQUISAS LTDA.</option>
+<option value="DATAMETRICA PESQUISA DE OPINIAO E CONSULTORIA LTDA / DATAMETRICA PESQUISA E CONSULTORIA">DATAMETRICA PESQUISA DE OPINIAO E CONSULTORIA LTDA / DATAMETRICA PESQUISA E CONSULTORIA</option>
+<option value="DATAMG INSTITUTO DE PESQUISAS LTDA / DATA FATO">DATAMG INSTITUTO DE PESQUISAS LTDA / DATA FATO</option>
+<option value="DATAPODER360 PESQUISAS, JORNALISMO E COMUNICACAO LTDA">DATAPODER360 PESQUISAS, JORNALISMO E COMUNICACAO LTDA</option>
+<option value="DATAPRESS INSTITUTO DE PESQUISA, COMUNICACAO E PUBLICIDADE LTDA - ME">DATAPRESS INSTITUTO DE PESQUISA, COMUNICACAO E PUBLICIDADE LTDA - ME</option>
+<option value="DATAVOX PESQUISAS DE OPINIAO PUBLICA E ESTATISTICAS LTDA / DATAVOX">DATAVOX PESQUISAS DE OPINIAO PUBLICA E ESTATISTICAS LTDA / DATAVOX</option>
+<option value="DATTAMARKETING LTDA / DATTAMARKETING">DATTAMARKETING LTDA / DATTAMARKETING</option>
+<option value="DD MIDIA E PESQUISA LTDA - EPP / THE VOICE PESQUISA 365">DD MIDIA E PESQUISA LTDA - EPP / THE VOICE PESQUISA 365</option>
+<option value="DIAGNOSTICO PESQUISAS DE COMPORTAMENTO EIRELI / DIAGNOSTICO PESQUISAS DE COMPORTAMENTO">DIAGNOSTICO PESQUISAS DE COMPORTAMENTO EIRELI / DIAGNOSTICO PESQUISAS DE COMPORTAMENTO</option>
+<option value="DIGITOP PUBLICIDADE &amp; MARKETING LTDA / TOP MIDIA NEWS">DIGITOP PUBLICIDADE &amp; MARKETING LTDA / TOP MIDIA NEWS</option>
+<option value="DIVIDADOS-INSTITUTO DE PEQUISAS OPINIAO E MERCADO LTDA - ME">DIVIDADOS-INSTITUTO DE PEQUISAS OPINIAO E MERCADO LTDA - ME</option>
+<option value="DMP DESIGN MARKETING E PROPAGANDA LTDA">DMP DESIGN MARKETING E PROPAGANDA LTDA</option>
+<option value="DOXA ARTE &amp; COMUNICAO S/S LTDA / DOXA">DOXA ARTE &amp; COMUNICAO S/S LTDA / DOXA</option>
+<option value="E. TORMES &amp; CIA LTDA - ME">E. TORMES &amp; CIA LTDA - ME</option>
+<option value="ECONOMETRICA PESQUISA LTDA / INSTITUTO DE PESQUISA ECONOMETRICA">ECONOMETRICA PESQUISA LTDA / INSTITUTO DE PESQUISA ECONOMETRICA</option>
+<option value="EDIR DE PAIVA BUENO - ME / EPB CONSULTORIA POLITICA E ECONOMICA">EDIR DE PAIVA BUENO - ME / EPB CONSULTORIA POLITICA E ECONOMICA</option>
+<option value="EDITORA ANA CASSIA S.A. / REDE DIARIO DE COMUNICACAO">EDITORA ANA CASSIA S.A. / REDE DIARIO DE COMUNICACAO</option>
+<option value="EDITORA LEIA TUDO LTDA / EDITORA LEIA TUDO">EDITORA LEIA TUDO LTDA / EDITORA LEIA TUDO</option>
+<option value="ELEITOR DIGITAL CONSULTORIA E SERVICOS LTDA">ELEITOR DIGITAL CONSULTORIA E SERVICOS LTDA</option>
+<option value="ENFOQUE ASSESSORIA DE COMUNICACAO INTEGRADA LTDA - ME">ENFOQUE ASSESSORIA DE COMUNICACAO INTEGRADA LTDA - ME</option>
+<option value="ENQUET PESQUISAS DE OPINIAO PUBLICA LTDA / ENQUET PESQUISAS">ENQUET PESQUISAS DE OPINIAO PUBLICA LTDA / ENQUET PESQUISAS</option>
+<option value="ERIC LIMA BARBOSA - ME / PONTUAL PESQUISAS">ERIC LIMA BARBOSA - ME / PONTUAL PESQUISAS</option>
+<option value="ERNANDO FERREIRA GOMES LOPES - ME / DADOS FOLHA">ERNANDO FERREIRA GOMES LOPES - ME / DADOS FOLHA</option>
+<option value="ESCUTEC - PESQUISAS DE MERCADO E DE OPINIAO PUBLICA LTDA. / ESCUTEC">ESCUTEC - PESQUISAS DE MERCADO E DE OPINIAO PUBLICA LTDA. / ESCUTEC</option>
+<option value="ESTIMATIVA EDITORA E COMUNICACAO LTDA - ME">ESTIMATIVA EDITORA E COMUNICACAO LTDA - ME</option>
+<option value="ESTRATEGIAS CONFIRMA PESQUISA E COMERCIO LTDA - ME">ESTRATEGIAS CONFIRMA PESQUISA E COMERCIO LTDA - ME</option>
+<option value="EXATA OP OPINIAO PUBLICA LTDA">EXATA OP OPINIAO PUBLICA LTDA</option>
+<option value="F. DA S. RABELLO / EDITORA Z">F. DA S. RABELLO / EDITORA Z</option>
+<option value="F. FACANHA DE ALMEIDA - ME / DELTA AGENCIA DE PESQUISA">F. FACANHA DE ALMEIDA - ME / DELTA AGENCIA DE PESQUISA</option>
+<option value="F. L. S. - PESQUISA, ASSESSORIA E MARKETING LTDA. / REINNO COMUNICACAO">F. L. S. - PESQUISA, ASSESSORIA E MARKETING LTDA. / REINNO COMUNICACAO</option>
+<option value="F.A.N. TEIXEIRA / SEGMENTA DADOS E PESQUISAS">F.A.N. TEIXEIRA / SEGMENTA DADOS E PESQUISAS</option>
+<option value="FABIO MARCELO DE MORAIS BATISTA - ME / CONSULTE INTELIGENCIA E MERCADO">FABIO MARCELO DE MORAIS BATISTA - ME / CONSULTE INTELIGENCIA E MERCADO</option>
+<option value="FELIPE ONISTO / INSTITUTO PINCARO ASSES. POLITICA E PROJETOS SOCIAIS">FELIPE ONISTO / INSTITUTO PINCARO ASSES. POLITICA E PROJETOS SOCIAIS</option>
+<option value="FLEXCONSULT LTDA - EPP">FLEXCONSULT LTDA - EPP</option>
+<option value="FOLHA REGIONAL LIVRAMENTO LTDA - ME / FOLHA REGIONAL ONLINE">FOLHA REGIONAL LIVRAMENTO LTDA - ME / FOLHA REGIONAL ONLINE</option>
+<option value="FORTIORI PESQUISA DIAGNOSTICO &amp; MARKETING LTDA - EPP / FORTIORI">FORTIORI PESQUISA DIAGNOSTICO &amp; MARKETING LTDA - EPP / FORTIORI</option>
+<option value="FRANCISCO AIRES DE SOUZA PENIN JUNIOR 68947437204 / INTELIDATA">FRANCISCO AIRES DE SOUZA PENIN JUNIOR 68947437204 / INTELIDATA</option>
+<option value="FUTURA CONSULTORIA E ASSESSORIA LTDA / FUTURA">FUTURA CONSULTORIA E ASSESSORIA LTDA / FUTURA</option>
+<option value="GAZETA DADOS LTDA - ME / GAZETA DADOS">GAZETA DADOS LTDA - ME / GAZETA DADOS</option>
+<option value="GMR INTELIGENCIA DE MERCADO LTDA - EPP / GMR INTELIGENCIA DE MERCADO">GMR INTELIGENCIA DE MERCADO LTDA - EPP / GMR INTELIGENCIA DE MERCADO</option>
+<option value="GOVNET PESQUISA E TECNOLOGIA DA INFORMACAO LTDA">GOVNET PESQUISA E TECNOLOGIA DA INFORMACAO LTDA</option>
+<option value="GRAN PRIME DESENVOLVIMENTO E EDUCACAO LTDA / GRAN PRIME TREINAMENTOS">GRAN PRIME DESENVOLVIMENTO E EDUCACAO LTDA / GRAN PRIME TREINAMENTOS</option>
+<option value="GRUPO DE PESQUISA MARKETING SAO JUDAS TADEU LTDA - ME / TDL PESQUISA &amp; MARKETING">GRUPO DE PESQUISA MARKETING SAO JUDAS TADEU LTDA - ME / TDL PESQUISA &amp; MARKETING</option>
+<option value="GRUPOM CONSULTORIA EMPRESARIAL LTDA - EPP">GRUPOM CONSULTORIA EMPRESARIAL LTDA - EPP</option>
+<option value="GUIMARAES PESQUISAS E CONSULTORIA LTDA">GUIMARAES PESQUISAS E CONSULTORIA LTDA</option>
+<option value="H.F.MOLINA COMUNICACAO E PESQUISA - ME / RANKING COMUNICACAO E PESQUISA">H.F.MOLINA COMUNICACAO E PESQUISA - ME / RANKING COMUNICACAO E PESQUISA</option>
+<option value="HC 7 CONSULTORIA E ASSESSORIA DE IMPRENSA - EIRELI">HC 7 CONSULTORIA E ASSESSORIA DE IMPRENSA - EIRELI</option>
+<option value="I. VILANDER DE N. RIBEIRO - ME / INSTITUTO CREDIBILIDADE">I. VILANDER DE N. RIBEIRO - ME / INSTITUTO CREDIBILIDADE</option>
+<option value="IBOPE INTELIGENCIA PESQUISA E CONSULTORIA LTDA">IBOPE INTELIGENCIA PESQUISA E CONSULTORIA LTDA</option>
+<option value="IBRAPE PESQUISA LTDA / IBRAPE">IBRAPE PESQUISA LTDA / IBRAPE</option>
+<option value="IBRAPE- INSTITUTO BRASILEIRO PESQUISA OPINIAO PUBL.LTDA / IBRAPE">IBRAPE- INSTITUTO BRASILEIRO PESQUISA OPINIAO PUBL.LTDA / IBRAPE</option>
+<option value="IDEIA INTELIGENCIA EM PESQUISA LTDA">IDEIA INTELIGENCIA EM PESQUISA LTDA</option>
+<option value="IDEP BRASIL LTDA - ME / IDEP BRASIL">IDEP BRASIL LTDA - ME / IDEP BRASIL</option>
+<option value="IFT.COM EDITORACAO ELETRONICA LTDA / IFT.COM">IFT.COM EDITORACAO ELETRONICA LTDA / IFT.COM</option>
+<option value="IGOPPE - INSTITUTO GOIANO DE PUBLICIDADE E PESQUISA LTDA / IGOPPE - INSTITUTO GOIANO DE PUBLICIDADE E PESQUISA">IGOPPE - INSTITUTO GOIANO DE PUBLICIDADE E PESQUISA LTDA / IGOPPE - INSTITUTO GOIANO DE PUBLICIDADE E PESQUISA</option>
+<option value="IHPEC - INSTITUTO HAVERROTH DE POLITICA, ESTATISTICA E COMUNICACAO LTDA. / INSTITUTO HAVERROTH">IHPEC - INSTITUTO HAVERROTH DE POLITICA, ESTATISTICA E COMUNICACAO LTDA. / INSTITUTO HAVERROTH</option>
+<option value="IIP INSTITUTO DE PESQUISAS LTDA - ME / INDEX INSTITUTO DE PESQUISAS">IIP INSTITUTO DE PESQUISAS LTDA - ME / INDEX INSTITUTO DE PESQUISAS</option>
+<option value="IMAGEM COMUNICACAO E PUBLICIDADE LTDA / IMAGEM COMUNICACAO">IMAGEM COMUNICACAO E PUBLICIDADE LTDA / IMAGEM COMUNICACAO</option>
+<option value="INSTITUTO ACERTAR PESQUISA DE MERCADO E DE OPINIAO PUBLICA LTDA. / INSTITUTO ACERTAR">INSTITUTO ACERTAR PESQUISA DE MERCADO E DE OPINIAO PUBLICA LTDA. / INSTITUTO ACERTAR</option>
+<option value="INSTITUTO BRASIL DE PESQUISAS S/S LTDA / INSTITUTO BRASIL CONSULTORIA E PESQUISAS DE OPINIAO">INSTITUTO BRASIL DE PESQUISAS S/S LTDA / INSTITUTO BRASIL CONSULTORIA E PESQUISAS DE OPINIAO</option>
+<option value="INSTITUTO DE PESQUISA DATA AZ LTDA - ME">INSTITUTO DE PESQUISA DATA AZ LTDA - ME</option>
+<option value="INSTITUTO DE PESQUISA DATA BASE E ESTATISTICA LTDA / INSTITUTO DATA BASEE">INSTITUTO DE PESQUISA DATA BASE E ESTATISTICA LTDA / INSTITUTO DATA BASEE</option>
+<option value="INSTITUTO DE PESQUISA MAURICIO DE NASSAU">INSTITUTO DE PESQUISA MAURICIO DE NASSAU</option>
+<option value="INSTITUTO DE PESQUISA PLURIMUS">INSTITUTO DE PESQUISA PLURIMUS</option>
+<option value="INSTITUTO DE PESQUISAS PERFIL LTDA">INSTITUTO DE PESQUISAS PERFIL LTDA</option>
+<option value="INSTITUTO JALES DE PESQUISA LTDA / INSTITUTO JALES DE PESQUISA">INSTITUTO JALES DE PESQUISA LTDA / INSTITUTO JALES DE PESQUISA</option>
+<option value="INSTITUTO METHODUS ANALISE DE MERCADO SOCIEDADE SIMPLES LIMITADA">INSTITUTO METHODUS ANALISE DE MERCADO SOCIEDADE SIMPLES LIMITADA</option>
+<option value="INSTITUTO PARANA DE PESQUISAS E ANALISE DE CONSUMIDOR LTDA - EPP">INSTITUTO PARANA DE PESQUISAS E ANALISE DE CONSUMIDOR LTDA - EPP</option>
+<option value="INSTITUTO PIAUIENSE DE OPINIAO PUBLICA LTDA - EPP / AMOSTRAGEM OPINIAO E MERCADO">INSTITUTO PIAUIENSE DE OPINIAO PUBLICA LTDA - EPP / AMOSTRAGEM OPINIAO E MERCADO</option>
+<option value="INSTITUTO QUEST DE PESQUISAS LTDA / QUEST COMUNICACAO E MARKETING">INSTITUTO QUEST DE PESQUISAS LTDA / QUEST COMUNICACAO E MARKETING</option>
+<option value="INSTITUTO SOLEIL DE PESQUISA E EDUCACAO LTDA / INSPE">INSTITUTO SOLEIL DE PESQUISA E EDUCACAO LTDA / INSPE</option>
+<option value="INSTITUTO TECNOLOGICO DA INFORMACAO S/C - ME / ITI - INSTITUTO TECNOLOGICO DA INFORMACAO">INSTITUTO TECNOLOGICO DA INFORMACAO S/C - ME / ITI - INSTITUTO TECNOLOGICO DA INFORMACAO</option>
+<option value="INSTITUTO VERITA LTDA - EPP / VERITA">INSTITUTO VERITA LTDA - EPP / VERITA</option>
+<option value="INSTITUTUM SUR GENTIS DE PESQUISA E CONSULTORIA LTDA / INSTITUTO SURGENTIS">INSTITUTUM SUR GENTIS DE PESQUISA E CONSULTORIA LTDA / INSTITUTO SURGENTIS</option>
+<option value="INTELLIGENCE PESQUISA E MARKETING EIRELI / INTELLIGENCE PESQUISA E MARKETING">INTELLIGENCE PESQUISA E MARKETING EIRELI / INTELLIGENCE PESQUISA E MARKETING</option>
+<option value="IPAT - INSTITUTO DE PESQUISAS A TRIBUNA LTDA - EPP">IPAT - INSTITUTO DE PESQUISAS A TRIBUNA LTDA - EPP</option>
+<option value="IPC - INSTITUTO DE PESQUISA CATARINENSE LTDA - EPP / IPC - INSTITUTO DE PESQUISA">IPC - INSTITUTO DE PESQUISA CATARINENSE LTDA - EPP / IPC - INSTITUTO DE PESQUISA</option>
+<option value="IPCM INSTITUTO DE PESQUISA COMUNICACAO E MARKETING LTDA - ME / IPCM INSTITUTO DE PESQUISA">IPCM INSTITUTO DE PESQUISA COMUNICACAO E MARKETING LTDA - ME / IPCM INSTITUTO DE PESQUISA</option>
+<option value="IPEMS INSTITUTO DE PESQUISAS DE MATO GROSSO DO SUL LTDA - ME">IPEMS INSTITUTO DE PESQUISAS DE MATO GROSSO DO SUL LTDA - ME</option>
+<option value="IPEN - INSTITUTO DE PESQUISA DO NORTE LTDA - ME / IPEN - INSTITUTO DE PESQUISA DO NORTE">IPEN - INSTITUTO DE PESQUISA DO NORTE LTDA - ME / IPEN - INSTITUTO DE PESQUISA DO NORTE</option>
+<option value="IPESPE INST DE PESQUISAS SOCIAIS POLITICAS E ECONOMICAS">IPESPE INST DE PESQUISAS SOCIAIS POLITICAS E ECONOMICAS</option>
+<option value="IPEXX BRASIL INSTITUTO DE PESQUISAS E SERVICOS LTDA / IPEXX BRASIL INSTITUTO DE PESQUISAS E SERVICOS">IPEXX BRASIL INSTITUTO DE PESQUISAS E SERVICOS LTDA / IPEXX BRASIL INSTITUTO DE PESQUISAS E SERVICOS</option>
+<option value="IPRI INSTITUTO DE PESQUISA DE REPUTACAO E IMAGEM LTDA / INSTITUTO FSB PESQUISA">IPRI INSTITUTO DE PESQUISA DE REPUTACAO E IMAGEM LTDA / INSTITUTO FSB PESQUISA</option>
+<option value="IPSOS BRASIL PESQUISAS DE MERCADO LTDA">IPSOS BRASIL PESQUISAS DE MERCADO LTDA</option>
+<option value="IRG CONSULTORIA E PRESTACAO DE SERVICO LTDA - ME / IRG CONSULTORIA">IRG CONSULTORIA E PRESTACAO DE SERVICO LTDA - ME / IRG CONSULTORIA</option>
+<option value="IVANI MOTA DE ARAUJO / BRASIL DADOS">IVANI MOTA DE ARAUJO / BRASIL DADOS</option>
+<option value="J J COELHO - ME / INSTITUTO PHOENIX &amp; ASSOCIADOS">J J COELHO - ME / INSTITUTO PHOENIX &amp; ASSOCIADOS</option>
+<option value="J M DE NOVAES - ME / DATA ILHA">J M DE NOVAES - ME / DATA ILHA</option>
+<option value="JORNAL CORREIO DO POVO TOCANTINENSE EIRELI / CORREIO DO POVO TOCANTINENSE">JORNAL CORREIO DO POVO TOCANTINENSE EIRELI / CORREIO DO POVO TOCANTINENSE</option>
+<option value="JOSE ELIAS PEREIRA NETO 05661875401 / AC NORDESTE">JOSE ELIAS PEREIRA NETO 05661875401 / AC NORDESTE</option>
+<option value="JOYCE DE ALMEIDA LUCAS / TELESCOPIO PESQUISA INTELIGENTE">JOYCE DE ALMEIDA LUCAS / TELESCOPIO PESQUISA INTELIGENTE</option>
+<option value="JULIANO ALBERT SCHMIDT 00119661144 / IPEC - INSTITUTO DE PESQUISA">JULIANO ALBERT SCHMIDT 00119661144 / IPEC - INSTITUTO DE PESQUISA</option>
+<option value="LINO EMILIANO PRASERES SILVA - EPP / EXATA PESQUISA DE OPNIAO PUBLICA">LINO EMILIANO PRASERES SILVA - EPP / EXATA PESQUISA DE OPNIAO PUBLICA</option>
+<option value="LOTTUS CONSULTORIA PESQUISAS E MARKETING EIRELI / LOTTUS COMUNICACOES">LOTTUS CONSULTORIA PESQUISAS E MARKETING EIRELI / LOTTUS COMUNICACOES</option>
+<option value="LUANA RAQUEL MARQUES PEREIRA MARTINS / PORTAL DE OLHO">LUANA RAQUEL MARQUES PEREIRA MARTINS / PORTAL DE OLHO</option>
+<option value="LUPA PESQUISAS E PROJETOS LTDA">LUPA PESQUISAS E PROJETOS LTDA</option>
+<option value="LUPI ASSOCIADOS PESQUISA E MARKETING LTDA / LUPI ASSOCIADOS PESQUISA E MARKETING">LUPI ASSOCIADOS PESQUISA E MARKETING LTDA / LUPI ASSOCIADOS PESQUISA E MARKETING</option>
+<option value="M A R DA ROCHA - MARKETING - ME / FOLHA CAPITAL">M A R DA ROCHA - MARKETING - ME / FOLHA CAPITAL</option>
+<option value="M B BARROS CONSULTORIA LTDA - ME / INSTITUTO DATASENSUS">M B BARROS CONSULTORIA LTDA - ME / INSTITUTO DATASENSUS</option>
+<option value="M P VALIN EIRELI / PROJETA PESQUISA DE MERCADO OPNIAO PUBLICA">M P VALIN EIRELI / PROJETA PESQUISA DE MERCADO OPNIAO PUBLICA</option>
+<option value="M R BORGES SERVICOS / MBO PUBLICIDADE, MARKETING E PESQUISA">M R BORGES SERVICOS / MBO PUBLICIDADE, MARKETING E PESQUISA</option>
+<option value="M R COMUNICACAO E MARKETING LTDA">M R COMUNICACAO E MARKETING LTDA</option>
+<option value="M. M. MACHADO SOARES / DATA-M3 CONSULTORIA E MARKETING">M. M. MACHADO SOARES / DATA-M3 CONSULTORIA E MARKETING</option>
+<option value="M.A.S -OPINIAO &amp; PESQUISA S/S LTDA / MAS">M.A.S -OPINIAO &amp; PESQUISA S/S LTDA / MAS</option>
+<option value="MAPA MARKETING E PARTICIPACOES LTDA - EPP">MAPA MARKETING E PARTICIPACOES LTDA - EPP</option>
+<option value="MARCELO MAGALHAES &amp; CIA. LTDA. - ME / INTERPRETA DESENVOLVIMENTO EDUCACIONAL">MARCELO MAGALHAES &amp; CIA. LTDA. - ME / INTERPRETA DESENVOLVIMENTO EDUCACIONAL</option>
+<option value="MARCIA CAMARA DE FIGUEIREDO - EPP / PERFIL PESQUISAS TECNICAS">MARCIA CAMARA DE FIGUEIREDO - EPP / PERFIL PESQUISAS TECNICAS</option>
+<option value="MARCIO BARTOLOMEU AZEVEDO DA COSTA / INTELIGENCE SERVICOS">MARCIO BARTOLOMEU AZEVEDO DA COSTA / INTELIGENCE SERVICOS</option>
+<option value="MARIA EDNA DE B C FALABELLA &amp; CIA LTDA - ME / INSTITUTO DE PESQUISA MULTIPLA">MARIA EDNA DE B C FALABELLA &amp; CIA LTDA - ME / INSTITUTO DE PESQUISA MULTIPLA</option>
+<option value="MARK INSTITUTO DE PESQUISA E OPINIAO LTDA - ME">MARK INSTITUTO DE PESQUISA E OPINIAO LTDA - ME</option>
+<option value="MDA-PESQUISA DE OPINIAO PUBLICA E CONSULT. ESTATIST. LTDA - EPP">MDA-PESQUISA DE OPINIAO PUBLICA E CONSULT. ESTATIST. LTDA - EPP</option>
+<option value="MENTOR INTELIGENCIA, PESQUISAS E TECNOLOGIA LTDA - ME / MENTOR INTELIGENCIA">MENTOR INTELIGENCIA, PESQUISAS E TECNOLOGIA LTDA - ME / MENTOR INTELIGENCIA</option>
+<option value="MESEEMS SERVICOS DE INTELIGENCIA DE MERCADO LTDA / MINDMINERS">MESEEMS SERVICOS DE INTELIGENCIA DE MERCADO LTDA / MINDMINERS</option>
+<option value="METODO PESQUISA E CONSULTORIA LTDA - ME / METODO PESQUISA E CONSULTORIA LTDA">METODO PESQUISA E CONSULTORIA LTDA - ME / METODO PESQUISA E CONSULTORIA LTDA</option>
+<option value="MOREIRA &amp; NOLETO LTDA - ME / INSTITUTO SKALA">MOREIRA &amp; NOLETO LTDA - ME / INSTITUTO SKALA</option>
+<option value="MT DADOS ASSESSORIA E MARKETING LTDA - ME / MT DADOS PESQUISAS">MT DADOS ASSESSORIA E MARKETING LTDA - ME / MT DADOS PESQUISAS</option>
+<option value="MULTIDADOS PESQUISA LTDA - ME / MULTIDADOS PESQUISA PROFISSIONAL AVANCADA">MULTIDADOS PESQUISA LTDA - ME / MULTIDADOS PESQUISA PROFISSIONAL AVANCADA</option>
+<option value="MX LOAD LTDA / 2062">MX LOAD LTDA / 2062</option>
+<option value="O&amp;P BRASIL OPINIAO, ANALISE, ESTRATEGIA S/S LTDA - EPP / OPINIAO BRASIL">O&amp;P BRASIL OPINIAO, ANALISE, ESTRATEGIA S/S LTDA - EPP / OPINIAO BRASIL</option>
+<option value="OPINAR PESQUISAS LTDA. / OPINAR PESQUISAS">OPINAR PESQUISAS LTDA. / OPINAR PESQUISAS</option>
+<option value="OPINIAO - PESQUISA E CONSULTORIA TECNICA LTDA / OPINE - PESQUISA E CONSULTORIA">OPINIAO - PESQUISA E CONSULTORIA TECNICA LTDA / OPINE - PESQUISA E CONSULTORIA</option>
+<option value="OPINIAO CONSULTORIA LTDA / OPINIAO">OPINIAO CONSULTORIA LTDA / OPINIAO</option>
+<option value="OPINIAO PESQUISA E ASSESSORIA LTDA - ME / INSTITUTO OPINIAO - PESQUISAS DE OPINIAO PUBLICA">OPINIAO PESQUISA E ASSESSORIA LTDA - ME / INSTITUTO OPINIAO - PESQUISAS DE OPINIAO PUBLICA</option>
+<option value="P &amp; A PESQUISA E ANALISE SOCIAL E ECONOMICA LTDA - EPP">P &amp; A PESQUISA E ANALISE SOCIAL E ECONOMICA LTDA - EPP</option>
+<option value="PADRAO PESQUISAS CIENTIFICAS LTDA. - ME / PADRAO PESQUISAS">PADRAO PESQUISAS CIENTIFICAS LTDA. - ME / PADRAO PESQUISAS</option>
+<option value="PERCENT PESQUISA DE MERCADO E OPINIAO LTDA / PERCENT PESQUISA DE MERCADO E OPINIAO">PERCENT PESQUISA DE MERCADO E OPINIAO LTDA / PERCENT PESQUISA DE MERCADO E OPINIAO</option>
+<option value="PEREIRA &amp; COELHO CONSULTORIA LTDA / F5 ATUALIZA DADOS">PEREIRA &amp; COELHO CONSULTORIA LTDA / F5 ATUALIZA DADOS</option>
+<option value="PLATAFORMA 4 COMUNICACAO E MARKETING FUUL SERVICE LTDA-ME - ME">PLATAFORMA 4 COMUNICACAO E MARKETING FUUL SERVICE LTDA-ME - ME</option>
+<option value="PRISCILA REGINA VASQUEZ 73652393287 / INFOESTAT SOLUCOES EM T.I. E ESTATISTICA">PRISCILA REGINA VASQUEZ 73652393287 / INFOESTAT SOLUCOES EM T.I. E ESTATISTICA</option>
+<option value="PROMOTION EDITORA EVENTOS PROM. E REPRESENTACOES LTDA / JORNAL STYLO">PROMOTION EDITORA EVENTOS PROM. E REPRESENTACOES LTDA / JORNAL STYLO</option>
+<option value="PROPAGARE DIGITAL ESTRATEGIAS E COMUNICACAO SOCIAL - EIRELI / PROPAGARE">PROPAGARE DIGITAL ESTRATEGIAS E COMUNICACAO SOCIAL - EIRELI / PROPAGARE</option>
+<option value="QUALITY PESQUISAS E ASSESSORIA EMPRESARIAL EIRELI - ME / QUALITY PESQUISAS">QUALITY PESQUISAS E ASSESSORIA EMPRESARIAL EIRELI - ME / QUALITY PESQUISAS</option>
+<option value="QUANTIMAIS CONSULTORIA LTDA">QUANTIMAIS CONSULTORIA LTDA</option>
+<option value="RADAR INTELIGENCIA - EIRELI / RADAR ESTATISTICA">RADAR INTELIGENCIA - EIRELI / RADAR ESTATISTICA</option>
+<option value="REAL DADOS E PESQUISAS LTDA - ME / REAL DADOS E PESQUISAS">REAL DADOS E PESQUISAS LTDA - ME / REAL DADOS E PESQUISAS</option>
+<option value="REAL TIME BIG DATA GESTAO DE DADOS LTDA. / REAL TIME BIG DATA">REAL TIME BIG DATA GESTAO DE DADOS LTDA. / REAL TIME BIG DATA</option>
+<option value="ROGERIO M. P. MOURA - ME / DATA MAX">ROGERIO M. P. MOURA - ME / DATA MAX</option>
+<option value="SERPES PESQUISAS DE OPINIAO E MERCADO LTDA - EPP / SERPES">SERPES PESQUISAS DE OPINIAO E MERCADO LTDA - EPP / SERPES</option>
+<option value="SETA INSTITUTO DE PESQUISA LTDA / INSTITUTO SETA DE PESQUISA">SETA INSTITUTO DE PESQUISA LTDA / INSTITUTO SETA DE PESQUISA</option>
+<option value="SIGNATES CONSULTORIA, PESQUISA E EDITORACAO LTDA - EPP / INSTITUTO SIGNATES">SIGNATES CONSULTORIA, PESQUISA E EDITORACAO LTDA - EPP / INSTITUTO SIGNATES</option>
+<option value="SOUSA &amp; LUCENA LTDA / INST. DO NORTE DE OPINIAO PUBLICA E ESTATISTICA -INOPE">SOUSA &amp; LUCENA LTDA / INST. DO NORTE DE OPINIAO PUBLICA E ESTATISTICA -INOPE</option>
+<option value="SP - SEBRAM PESQUISAS - SERVICOS DE PESQUISAS DE OPINIAO PUBLICA, JORNALISMO, CONSULTORIA E ASSESSORIA S/S LTDA">SP - SEBRAM PESQUISAS - SERVICOS DE PESQUISAS DE OPINIAO PUBLICA, JORNALISMO, CONSULTORIA E ASSESSORIA S/S LTDA</option>
+<option value="STEPHSON KIM NUNES GUIMARAES 01350006106 / TOCANTINS AGORA COMUNICACAO E PESQUISA">STEPHSON KIM NUNES GUIMARAES 01350006106 / TOCANTINS AGORA COMUNICACAO E PESQUISA</option>
+<option value="SUA SOLUCAO WEB LTDA / SEU FILHO NA ESCOLA">SUA SOLUCAO WEB LTDA / SEU FILHO NA ESCOLA</option>
+<option value="SUELI DAS DORES ALMEIDA - ME / PROMIDIA PESQUISA DE OPINIAO PUBLICA E MARKETING">SUELI DAS DORES ALMEIDA - ME / PROMIDIA PESQUISA DE OPINIAO PUBLICA E MARKETING</option>
+<option value="THIAGO VINICIUS MOTTA AQUINO / INSTITUTO DATAPLAN">THIAGO VINICIUS MOTTA AQUINO / INSTITUTO DATAPLAN</option>
+<option value="TONKOVITCH &amp; TONKOVITCH PESQUISAS LTDA / ARBEIT PESQUISAS">TONKOVITCH &amp; TONKOVITCH PESQUISAS LTDA / ARBEIT PESQUISAS</option>
+<option value="TULIPA PESQUISAS DE MERCADO E OPINIAO PUBLICA EIRELI">TULIPA PESQUISAS DE MERCADO E OPINIAO PUBLICA EIRELI</option>
+<option value="UNIDADE DE INFORMACAO, PESQUISA E CONSULTORIA LTDA - EPP / UNICA PESQUISAS">UNIDADE DE INFORMACAO, PESQUISA E CONSULTORIA LTDA - EPP / UNICA PESQUISAS</option>
+<option value="V. C. H. A. SERVICOS LTDA. / VERITATE">V. C. H. A. SERVICOS LTDA. / VERITATE</option>
+<option value="VERTUDE LTDA.">VERTUDE LTDA.</option>
+<option value="VETOR ASSESSORIA E PESQUISA DE MERCADO E DE OPINIAO PUBLICA LTDA / VETOR">VETOR ASSESSORIA E PESQUISA DE MERCADO E DE OPINIAO PUBLICA LTDA / VETOR</option>
+<option value="VIRTU ANALISE E ESTRATEGIA LTDA. / VIRTU ANALISE">VIRTU ANALISE E ESTRATEGIA LTDA. / VIRTU ANALISE</option>
+<option value="VOICE PESQUISAS E COMUNICACAO LTDA - ME / VOICE">VOICE PESQUISAS E COMUNICACAO LTDA - ME / VOICE</option>
+<option value="VOX DO BRASIL PESQUISAS E PARTICIPACOES LTDA">VOX DO BRASIL PESQUISAS E PARTICIPACOES LTDA</option>
+<option value="VOZ E PESQUISA TOCANTINS EIRELI / INSTITUTO VOPE">VOZ E PESQUISA TOCANTINS EIRELI / INSTITUTO VOPE</option>
+<option value="W S EDITORA GIRASSOL LTDA - ME / JORNAL O GIRASSOL">W S EDITORA GIRASSOL LTDA - ME / JORNAL O GIRASSOL</option>
+<option value="WAGNER R. DE SOUZA - ME / META PUBLICIDADE E PESQUISA">WAGNER R. DE SOUZA - ME / META PUBLICIDADE E PESQUISA</option>
+<option value="WILLAN DE FRANCA SILVA - ME / INSTITUTO FRANCA DE PESQUISA PESQUISA E ASSESSORIA">WILLAN DE FRANCA SILVA - ME / INSTITUTO FRANCA DE PESQUISA PESQUISA E ASSESSORIA</option></select>
+                            <script type="application/json" data-for="empresas-emp_select-emp" data-nonempty="">{}</script>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-9" style="background-color: #ededed">
+                        <div class="form-group shiny-input-container">
+                          <label class="control-label" for="empresas-emp_pesq_select-pesq">Pesquisa</label>
+                          <div>
+                            <select id="empresas-emp_pesq_select-pesq"><option value="MA-01428/2018" selected>MA-01428/2018</option>
+<option value="MA-05069/2018">MA-05069/2018</option>
+<option value="MA-05302/2018">MA-05302/2018</option>
+<option value="MA-06749/2018">MA-06749/2018</option>
+<option value="MA-08300/2018">MA-08300/2018</option>
+<option value="MA-08882/2018">MA-08882/2018</option></select>
+                            <script type="application/json" data-for="empresas-emp_pesq_select-pesq" data-nonempty="">{}</script>
+                          </div>
+                        </div>
+                        <div style="font-size = 11pt">
+                          <div id="empresas-pesq_summary-summary" class="shiny-html-output"></div>
+                          <br/>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div>
+                          <div class="shiny-html-output col-sm-12" id="empresas-emp_counts-num_pesquisas"></div>
+                          <div class="shiny-html-output col-sm-12" id="empresas-emp_counts-num_estatisticos"></div>
+                          <div class="shiny-html-output col-sm-12" id="empresas-emp_counts-valor_mediano"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-sobre">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-header">
+                    <h3 class="box-title">Sobre o aplicativo</h3>
+                  </div>
+                  <div class="box-body">
+                    <p>Este aplicativo tem como objetivo divulgar informações das
+               pesquisas eleitorais de 2018. Por lei, toda pesquisa eleitoral
+               deve ter um estatístico responsável registrado no Conselho
+               Regional de Estatística Pesquisas com custos muito baixos ou
+               estatísticos responsáveis por muitas pesquisas em pouco tempo
+               podem ser indícios de fraude.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-1"></div>
+              <div class="col-sm-10">
+                <div class="box">
+                  <div class="box-header">
+                    <h3 class="box-title">Responsáveis</h3>
+                  </div>
+                  <div class="box-body">
+                    <div class="col-sm-3">
+                      <img src="trecenti.jpg" width="170" height="160"/>
+                    </div>
+                    <div class="col-sm-3">
+                      <br/>
+                      <p>
+                        <strong>Julio Trecenti</strong>
+                      </p>
+                      <p>Presidente do CONRE-3ª região</p>
+                      <p>Sócio-fundador da Curso-R</p>
+                      <p>Doutorando em Estatística</p>
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="amorim.jpg" width="170" height="160"/>
+                    </div>
+                    <div class="col-sm-3">
+                      <br/>
+                      <p>
+                        <strong>William Amorim</strong>
+                      </p>
+                      <p>Sócio-fundador da Curso-R</p>
+                      <p>Doutorando em Estatística</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3"></div>
+              <div class="col-sm-6">
+                <div class="box" style="height: 170px">
+                  <div class="box-header">
+                    <h3 class="box-title">Apoio</h3>
+                  </div>
+                  <div class="box-body">
+                    <div class="col-sm-9">
+                      <a href="http://conre3.org.br/">
+                        <img src="conre3.jpg" width="300" height="80"/>
+                      </a>
+                    </div>
+                    <div class="col-sm-3">
+                      <a href="http://curso-r.com">
+                        <img src="cursor.jpg" width="80" height="80" align="center"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span style="position:fixed; right:18px; bottom:10px; &#10;      z-index:10; height:30px;">
+          <a href="https://www.curso-r.com/" target="_blank">
+            <img src="cursor.jpg" style="height:100%; border-radius: 50%;"> Powered by curso-r</img>
+          </a>
+        </span>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
