@@ -44,22 +44,25 @@ Fora do horário de aula ou monitoria:
 
 ## Práticas
 
-| Exemplo                                                                                 |
-|:----------------------------------------------------------------------------------------|
-| [01-brasilapi.R](https://curso-r.github.io/202306-web-scraping/praticas/01-brasilapi.R) |
-| [02-sabesp.R](https://curso-r.github.io/202306-web-scraping/praticas/02-sabesp.R)       |
-| [03-sptrans.R](https://curso-r.github.io/202306-web-scraping/praticas/03-sptrans.R)     |
-| [04-chatgpt.R](https://curso-r.github.io/202306-web-scraping/praticas/04-chatgpt.R)     |
-| [05-login.R](https://curso-r.github.io/202306-web-scraping/praticas/05-login.R)         |
-| [06-html.R](https://curso-r.github.io/202306-web-scraping/praticas/06-html.R)           |
-| [07-cdg.R](https://curso-r.github.io/202306-web-scraping/praticas/07-cdg.R)             |
-| [08-anatel.R](https://curso-r.github.io/202306-web-scraping/praticas/08-anatel.R)       |
-| [09-wiki.R](https://curso-r.github.io/202306-web-scraping/praticas/09-wiki.R)           |
-| [10-jobs.R](https://curso-r.github.io/202306-web-scraping/praticas/10-jobs.R)           |
-| [11-dejt.R](https://curso-r.github.io/202306-web-scraping/praticas/11-dejt.R)           |
-| [13-pesqele.R](https://curso-r.github.io/202306-web-scraping/praticas/13-pesqele.R)     |
-| [14-tjrj-nba.R](https://curso-r.github.io/202306-web-scraping/praticas/14-tjrj-nba.R)   |
-| [x-funcoes.R](https://curso-r.github.io/202306-web-scraping/praticas/x-funcoes.R)       |
+| Exemplo                                                                                         |
+|:------------------------------------------------------------------------------------------------|
+| [01-brasilapi.R](https://curso-r.github.io/202306-web-scraping/praticas/01-brasilapi.R)         |
+| [02-sabesp.R](https://curso-r.github.io/202306-web-scraping/praticas/02-sabesp.R)               |
+| [03-sptrans.R](https://curso-r.github.io/202306-web-scraping/praticas/03-sptrans.R)             |
+| [04-chatgpt.R](https://curso-r.github.io/202306-web-scraping/praticas/04-chatgpt.R)             |
+| [05-login.R](https://curso-r.github.io/202306-web-scraping/praticas/05-login.R)                 |
+| [06-html.R](https://curso-r.github.io/202306-web-scraping/praticas/06-html.R)                   |
+| [07-cdg.R](https://curso-r.github.io/202306-web-scraping/praticas/07-cdg.R)                     |
+| [08-anatel.R](https://curso-r.github.io/202306-web-scraping/praticas/08-anatel.R)               |
+| [09-wiki.R](https://curso-r.github.io/202306-web-scraping/praticas/09-wiki.R)                   |
+| [10-jobs.R](https://curso-r.github.io/202306-web-scraping/praticas/10-jobs.R)                   |
+| [11-dejt.R](https://curso-r.github.io/202306-web-scraping/praticas/11-dejt.R)                   |
+| [13-pesqele.R](https://curso-r.github.io/202306-web-scraping/praticas/13-pesqele.R)             |
+| [14-tjrj-nba.R](https://curso-r.github.io/202306-web-scraping/praticas/14-tjrj-nba.R)           |
+| [15-tjba.R](https://curso-r.github.io/202306-web-scraping/praticas/15-tjba.R)                   |
+| [16-copom.R](https://curso-r.github.io/202306-web-scraping/praticas/16-copom.R)                 |
+| [exemploActions.zip](https://curso-r.github.io/202306-web-scraping/praticas/exemploActions.zip) |
+| [x-funcoes.R](https://curso-r.github.io/202306-web-scraping/praticas/x-funcoes.R)               |
 
 ## Lição de casa
 
